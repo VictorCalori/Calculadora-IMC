@@ -1,0 +1,30 @@
+*{
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+.calcular{
+  margin: auto;
+  color: white;
+  background-color: grey;
+  border: 20px;
+  padding: 15px;
+  width: 50%;
+  border-color: black;
+}
+
+.input{
+  width: 500px;
+  font-size: 15px;
+}
+
+.botao{
+  font-size: 20px;
+}
+
+.resultado{
+  font-size: 15px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h2>Calculadora IMC</h2>
+
+    <div>
+      <center> <h3 class="texto" id="descExercicio">
+            Resutlado abaixo de 17 - Muito abaixo do peso;<br>
+            Resultado entre 17 e 18,49 - Abaixo do peso;<br>
+            Resultado entre 18,5 e 24,99 - Peso ideal;<br>
+            Resultado entre 25 e 29,99 - Sobrepeso;<br>
+            Resultado entre 30 e 34,9 - Obesidade grau I;<br>
+            Resultado entre 35 e 39,9 - Obesidade grau II (severa);<br>
+            Resultado acima de 40 - Obesidade grau III (mórbida);<br>
+        </h3></center>
+    </div>
+    <center><form onsubmit="return calcular(event)" class="calcular">
+        <br>
+        <label style="font-size: 30px;">Digite seu pesos:</label><br><br>
+        <input class="input" type="text" nome="peso" id="peso" placeholder="Exemplo:65" /><br><br>
+
+
+        <label style="font-size: 30px;">Digite sua altura:</label><br><br>
+        <input class="input"type="text" nome="altura" id="altura" placeholder="Exemplo: 1.90" /><br><br>
+
+
+        <input class="botao"type="submit" value="Calcular IMC">
+    </form></center>
+    <div class="resultado"id="resultado"></div>
+    <script src="imc.js"></script>
+
+
+</body>
+
+</html>
